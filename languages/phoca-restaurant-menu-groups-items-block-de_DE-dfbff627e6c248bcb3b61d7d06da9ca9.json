@@ -1,0 +1,26 @@
+{
+	"translation-revision-date": "YEAR-MO-DA HO:MI+ZONE",
+	"generator": "WP-CLI/2.8.1",
+	"source": "build/index.js",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "en",
+				"plural-forms": "nplurals=2; plural=(n != 1);"
+			},
+			"Groups and Items": [ "Gruppen und Artikel" ],
+			"Group": [ "Gruppe" ],
+			"Group Description": [ "Gruppe Beschreibung" ],
+			"Image": [ "Bild" ],
+			"Quantity": [ "Menge" ],
+			"Title": [ "Titel" ],
+			"Price": [ "Preis" ],
+			"Selected": [ "Ausgew\u00e4hlt" ],
+			"Remove Item": [ "Artikel entfernen" ],
+			"Item Description": [ "Artikelbezeichnung" ],
+			"Add Item": [ "Artikel hinzuf\u00fcgen" ]
+		}
+	}
+}

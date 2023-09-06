@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "phoca/phoca-restaurant-menu-groups-items-block",
+  "parent": [
+    "phoca/phoca-restaurant-menu-block"
+  ],
+  "version": "6.0.0",
+  "title": "Menu Groups and Items",
+  "category": "text",
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": ""
+    },
+    "group": {
+      "type": "string",
+      "default": ""
+    },
+    "groupDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "items": {
+      "type": "array",
+      "default": []
+    },
+    "inheritedMenuType": {
+      "type": "string",
+      "default": "DailyMenu"
+    },
+    "inheritedHideImages": {
+      "type": "boolean",
+      "default": false
+    },
+    "inheritedPriceFormat": {
+      "type": "string",
+      "default": "1"
+    },
+    "inheritedPriceCurrencySymbol": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedPriceDecimalSymbol": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedPriceDecimals": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedPriceThousandsSeparator": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedPriceSuffix": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedPricePrefix": {
+      "type": "string",
+      "default": ""
+    },
+    "inheritedAdminDisplayGroupDescription": {
+      "type": "boolean",
+      "default": false
+    },
+    "inheritedAdminDisplayItemDescription": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "description": "Phoca Restaurant Menu groups and items",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "phoca-restaurant-menu-groups-items-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
