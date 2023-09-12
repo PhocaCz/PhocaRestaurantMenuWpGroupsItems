@@ -1,4 +1,4 @@
-# Phoca Restaurant Menu Wp Groups Items
+# Phoca Restaurant Menu WP Groups Items
 Phoca Restaurant Menu groups and items is inner block of Phoca Restaurant Menu Block.
 
 ## Project page
