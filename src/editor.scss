@@ -1,0 +1,87 @@
+.phMenuItemEditsBoxHeader,
+.phMenuItemEditRowBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3px;
+	flex: wrap;
+}
+
+.phMenuItemEditPrice {
+	width: 10%;
+}
+
+.phMenuItemEditImage {
+	width: 10%;
+}
+
+.phMenuItemEditTitle {
+	width: 70%;
+}
+
+.phMenuItemEditQuantity {
+	width: 10%;
+}
+
+.phMenuItemEditItemDescription {
+	width: 100%;
+}
+
+.phMenuItemEditImageSelectedBox {
+	padding: 0;
+	height: fit-content;
+	display: flex;
+}
+
+.phMenuItemEditImageSelectedBox svg {
+	width: 18px;
+	height: 18px;
+}
+
+.phMenuItemEditImageSelectedButtonBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+}
+
+.phMenuItemEdit {
+	margin: 2px 0;
+}
+
+.phMenuItemEdit div {
+	margin: 0;
+}
+
+.phMenuButtonRemoveBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.edit-post-visual-editor .components-button.phMenuButtonRemove,
+.phMenuButtonRemove {
+	height: fit-content;
+	padding: 0;
+	margin-left: 2px;
+}
+
+.phMenuItemEditImageSelected {
+	height: 2em;
+	width: auto;
+}
+
+.phMenuItemEditHeader {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: calc(8px);
+	padding: 0;
+}
+
+
+.phMenuHide {
+	display: none;
+}
